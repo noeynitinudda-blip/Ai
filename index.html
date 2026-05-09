@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - นิตินัดดา ผลอินหอม</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Kanit',sans-serif;
+    }
+
+    body{
+      background:#ffeef5;
+      color:#444;
+      padding:40px 20px;
+    }
+
+    .container{
+      max-width:1000px;
+      margin:auto;
+      display:grid;
+      grid-template-columns:320px 1fr;
+      gap:25px;
+    }
+
+    .card{
+      background:white;
+      border-radius:24px;
+      padding:25px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.05);
+    }
+
+    .profile{
+      text-align:center;
+    }
+
+    .profile img{
+      width:140px;
+      height:140px;
+      border-radius:50%;
+      object-fit:cover;
+      border:5px solid #ffb6d3;
+      margin-bottom:15px;
+    }
+
+    h1{
+      font-size:28px;
+      color:#ff7eb6;
+      margin-bottom:8px;
+    }
+
+    .sub{
+      color:#777;
+      font-size:15px;
+      margin-bottom:20px;
+    }
+
+    .section-title{
+      color:#ff7eb6;
+      font-size:22px;
+      margin-bottom:15px;
+      font-weight:600;
+    }
+
+    .info{
+      margin-bottom:12px;
+      line-height:1.8;
+    }
+
+    .skill{
+      background:#ffe3ef;
+      color:#ff4f9a;
+      padding:8px 14px;
+      border-radius:20px;
+      display:inline-block;
+      margin:5px;
+      font-size:14px;
+    }
+
+    ul{
+      padding-left:20px;
+      line-height:2;
+    }
+
+    .contact a{
+      text-decoration:none;
+      color:#ff4f9a;
+    }
+
+    .right .card{
+      margin-bottom:25px;
+    }
+
+    @media(max-width:768px){
+      .container{
+        grid-template-columns:1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Left -->
+    <div class="left">
+
+      <div class="card profile">
+        <img src="https://i.pinimg.com/736x/89/76/2f/89762f3a9b6f7e74a5df5f7f0f8f66d5.jpg" alt="profile">
+
+        <h1>นิตินัดดา ผลอินหอม</h1>
+
+        <div class="sub">
+          รหัสนักศึกษา 6757100053 <br>
+          สาขาการสอนภาษาจีน <br>
+          คณะครุศาสตร์
+        </div>
+
+        <div class="contact">
+          <p><b>Instagram:</b></p>
+          <a href="https://instagram.com/np11111" target="_blank">
+            @np11111
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-title">ข้อมูลส่วนตัว</div>
+
+        <div class="info">
+          <b>วันเกิด:</b> 1 มกราคม 2005
+        </div>
+
+        <div class="info">
+          <b>อายุ:</b> 20 ปี
+        </div>
+
+        <div class="info">
+          <b>เพศ:</b> หญิง
+        </div>
+
+        <div class="info">
+          <b>สัญชาติ:</b> ไทย
+        </div>
+
+        <div class="info">
+          <b>การศึกษา:</b><br>
+          โรงเรียนบริหารเสน่ห์เจ้าหญิง
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Right -->
+    <div class="right">
+
+      <div class="card">
+        <div class="section-title">About Me</div>
+
+        <p style="line-height:2;">
+          เป็นคนชอบเรียนรู้สิ่งใหม่ สนใจด้านภาษาและการสื่อสาร 
+          มีความสนใจเกี่ยวกับภาษาจีนและวัฒนธรรมจีน 
+          พร้อมพัฒนาทักษะด้านการสอนและการสื่อสารอยู่เสมอ
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="section-title">Skills</div>
+
+        <span class="skill">สื่อสารภาษาจีนได้</span>
+        <span class="skill">Canva</span>
+        <span class="skill">Microsoft Word</span>
+        <span class="skill">Excel</span>
+      </div>
+
+      <div class="card">
+        <div class="section-title">Hobbies</div>
+
+        <ul>
+          <li>ฟังเพลง</li>
+          <li>ดูซีรีย์</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
